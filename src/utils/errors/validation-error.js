@@ -9,7 +9,7 @@ class ValidationError extends Error{
         this.name='Validation Error'
         this.message='Not able to validate the request',
         this.explanation=explanation,
-        this.statusCode=statusCode
+        this.statusCode=404
     }
 }
 module.exports=ValidationError

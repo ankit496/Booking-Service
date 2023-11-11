@@ -20,8 +20,8 @@ module.exports = {
       status: {
         type: Sequelize.ENUM,
         allowNull:false,
-        defaultValue:'In Process',
-        values:['In Process','Booked','Cancelled']
+        defaultValue:'InProcess',
+        values:['InProcess','Booked','Cancelled']
       },
       createdAt: {
         allowNull: false,
