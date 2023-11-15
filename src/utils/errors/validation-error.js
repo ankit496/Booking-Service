@@ -9,7 +9,7 @@ class ValidationError extends Error{
         this.name='Validation Error'
         this.message='Not able to validate the request',
         this.explanation=explanation,
-        this.statusCode=404
+        this.statusCode=INTERNAL_SERVER_ERROR
     }
 }
 module.exports=ValidationError
