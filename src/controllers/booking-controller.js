@@ -1,7 +1,6 @@
 const {BookingService}=require('../services/index')
 const bookingService=new BookingService()
 const {StatusCodes}=require('http-status-code')
-const { ServiceError } = require('../utils/errors')
 const {createChannel,publishMessage}=require('../utils/message_queue')
 const {REMINDER_BINDING_KEY}=require('../config/serverConfig')
 
